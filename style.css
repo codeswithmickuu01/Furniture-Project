@@ -20,7 +20,7 @@
 
 }
 .social-link i img:hover{
-    background-color:rgba(238,224,208);
+    background-color:rgb(3, 45, 59);
     border-radius: 50px;
 }
 @media screen and ( max-width:300px){
@@ -73,12 +73,12 @@
 .nav-link{
     margin-left: 30px;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
     transition: 0.5s ease;
     cursor: pointer;
 }
 .nav-link:hover{
-    color:green;
+    color:rgb(255, 255, 255);
 }
 
 /* navbar  */
@@ -93,14 +93,14 @@
     width: 150px;
     height: 32px;
     background: transparent;
-    border:1px solid black;
+    border:1px solid rgb(2, 2, 2);
     letter-spacing: 3px;
     font-weight: bold;
     transition: 0.5s ease;
     cursor: pointer;
 }
 #btnl button:hover{
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 
 }
 @media screen and (max-width:300px){
@@ -113,3 +113,101 @@
 /* contant */
 
 /* mian content */
+
+/* card 1 */
+#btn2 button{
+    width: 200px;
+    height: 200px;
+    background:transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color: rgba(238,224,208);
+}
+/* card 1 */
+
+/* card 2 */
+#tpc{
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+/* card2 */
+
+/* card3 */
+#c p{
+    font-weight:bold;
+
+}
+#btn3{
+    text-align: center;
+
+}
+#btn3 button {
+    width:150px;
+    height:30px;
+    background: transparent;
+    border:1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#btn3 button:hover{
+    background-color:rgba(238,224,208) ;
+    
+}
+@media screen and (max-width:895px) {
+    #btn3 button[
+        width: 100px;
+    ]
+    
+}
+/* card3 */
+#btn4 button{
+    width:150px;
+    height:30px;
+    background: transparent;
+    border:1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#btn4 button:hover{
+    background-color: rgba(238,224,208);
+}
+/* footer */
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+
+}
+#footer h1{
+    color:white;
+    padding-top: 30px;
+
+}
+#footer p{
+    color:white;
+
+}
+.ICONS i{
+    color:rgba(238,224,208);
+    font-size: 30px;
+    cursor: pointer;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+
+}
+.crediter{
+    color:white;
+}
+/* footer */
